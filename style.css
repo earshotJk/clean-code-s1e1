@@ -16,11 +16,12 @@ body {
 .header .more_inf {
   font-family: fantasy, cursive;
 }
-
 @media (max-width: 768px) {
+
   .header {
     text-align: center;
   }
+  
 }
 .main {
   display: block;
@@ -59,6 +60,7 @@ button {
 button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 h3 {
   color: #333;
@@ -107,7 +109,6 @@ li {
 li > * {
   vertical-align: middle;
 }
-
 li > input[type="checkbox"] {
   margin: 0 10px;
 }
@@ -139,12 +140,10 @@ ul#completed-tasks label {
 ul li input[type="text"] {
   display: none;
 }
-
 ul li.editMode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
-
 ul li.editMode label {
   display: none;
 }
